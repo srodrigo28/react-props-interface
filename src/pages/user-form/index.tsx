@@ -1,5 +1,11 @@
 import { FormEvent, useState } from "react"
 
+interface InterfaceUserProps{
+    nome: string;
+    idade: string;
+    estado: string;
+}
+
 export function UserForm() {
 
     const [nome, setNome] = useState('')
